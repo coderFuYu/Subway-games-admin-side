@@ -1,4 +1,4 @@
-# xyx_admin
+# Subway-games-admin-side
 
 ## Project setup
 ```

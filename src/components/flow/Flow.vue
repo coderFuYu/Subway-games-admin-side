@@ -1,7 +1,7 @@
 <template>
   <div class="flow">
-    <Chart :total-data="dayLiveData" chartId="dayLive" title="日活" class="chart"></Chart>
-    <Chart :total-data="monthLiveData" chartId="monthLive" title="月活" class="chart"></Chart>
+    <Chart :totalData="dayLiveData" chartId="dayLive" title="日活" class="chart"></Chart>
+    <Chart :totalData="monthLiveData" chartId="monthLive" title="月活" class="chart"></Chart>
   </div>
 </template>
 

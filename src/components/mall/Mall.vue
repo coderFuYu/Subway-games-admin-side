@@ -31,6 +31,7 @@
         this.totalData = [];
         propList(this.$store.state.token).then(
             res => {
+              console.log(res)
               this.propData = res.body;
               mallList(this.$store.state.token).then(res => {
                 this.mallData = res.body;

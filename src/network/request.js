@@ -3,7 +3,7 @@ import axios from 'axios'
 export function request(config,token) {
   const instance = axios.create({
     method: 'post',
-    'baseURL':'/api/admin',
+    'baseURL':'https://www.fycoder.top/h5game-api/admin',
     timeout: 5000,
     headers: {
       'token':token
